@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Nov 21 23:55:15 2021
-L0HawkesLibCoreTS
 
 @author: Tsuyohi (Ide-san) Ide (tide@us.ibm.com) 
 """
@@ -364,7 +363,7 @@ def verify_input(decayfunc, sparse_level, prior, nu_mu, nu_beta, nu_A,
 
     Raises
     ------
-    TSError
+    ValueError
         Raised when invalid parameters are given.
 
     Returns
@@ -405,7 +404,7 @@ def verify_timeorder(timestamps,event_types,Nh):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns
@@ -460,7 +459,7 @@ def history_of(n,Nh):
 
     Raises
     ------
-    TSError
+    ValueError
         Raised when a negative n or n=0 is passed.
 
     Returns
@@ -516,7 +515,7 @@ def decay(beta,u,func,eta,**kwargs):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns
@@ -551,7 +550,7 @@ def decay_integral(beta,u,func,eta,**kwargs):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns
@@ -586,7 +585,7 @@ def dh_derivative(beta,u,func,eta,**kwargs):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns
@@ -622,7 +621,7 @@ def ln_decay_derivative(beta,u,func,eta,**kwargs):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns

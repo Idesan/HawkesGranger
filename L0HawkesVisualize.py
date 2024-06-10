@@ -284,7 +284,7 @@ def show_model(result,note='',show_diagonal=False,shorten_mode=0):
 
     Raises
     ------
-    TSError
+    ValueError
         DESCRIPTION.
 
     Returns
