@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov 24 16:15:48 2021
+Originally created on Wed Nov 24 16:15:48 2021.
+Redeveloped on 06/2024 as independent code. 
 
 @author: Tsuyohi (Ide-san) Ide (tide@us.ibm.com) 
 """
