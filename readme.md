@@ -1,6 +1,7 @@
 # Cardinality-Regularized Hawkes-Granger Model
 
 **Tsuyoshi (Ide-san) Ide**
+
 IBM Thomas J. Research Center, tide@us.ibm.com / ide@ide-research.net
 
 ## What is this repository?
