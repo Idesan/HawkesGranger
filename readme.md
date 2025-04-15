@@ -4,7 +4,7 @@
 
 IBM Thomas J. Research Center, tide@us.ibm.com / ide@ide-research.net
 
-## What is this repository?
+## What is this repository about?
 
 This repository provides an end-to-end demo of a Granger-causal analysis approach proposed in
 
